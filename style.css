@@ -1,0 +1,347 @@
+::-webkit-scrollbar {
+    display: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+    
+    
+body {
+   
+    max-width: 100%;
+    overscroll-behavior: none;
+    margin: 0;
+}
+.nav-title {
+    
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder ;
+
+
+}
+.nav-logo {
+    border-radius: 50%;
+    background-image: url(qcu\ logo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-right: .626rem;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding-top: .626rem;
+    padding-bottom: .626rem;
+    font-style: bolder;
+    font-family: poppins;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: white;
+    opacity: 1;
+
+}
+#Home .right-nav-container a  {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding: .626rem;
+    border-radius: .938rem;
+}
+#Home .right-nav-container a:hover {
+    
+    color: #1025A1;
+}
+
+.right-nav-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.left-nav-container {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+    margin-left: 1.5rem;
+
+}
+#home {
+    height: 100%;
+    width: 100%;
+   
+}
+.bg-home {
+    
+    width: 100%;
+    height: 100vh;
+    background-image: url(1st\ bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: #1025A1;
+
+
+}
+.intro-container {
+    background-color: white;
+    border-radius: 6.25rem;
+    width: max-content;
+    height: max-content;
+    padding: 1rem;
+    z-index: 1;
+}
+
+.intro {
+    position: absolute;
+    width: 99vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#team {
+    height: 100vh;
+    width: 100vw;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.our-team {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: max-content;
+    width: max-content;
+    font-size: 1.625rem;
+    font-style: bold;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: #FFDE59;
+    margin-bottom: 1.5rem;
+
+
+}
+.left-team-mates-container {
+    
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.team-mates-container {
+    width: 60%;
+    max-height: max-content;
+    background: rgba(91,89,89,0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(91,89,89,0.25);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    z-index: 1;
+    border-radius: .928rem;
+   
+
+}
+.pm-container {
+    
+    display: flex;
+    align-items: center;
+    width: max-content;
+    flex-direction: column;
+}
+.pm-pic {
+ width: 6.625rem;
+ height: 6.625rem;
+ border-radius: 1.563rem;
+ background-image: url(leo.jpg); 
+ background-position: center;
+ background-size: cover;
+
+}
+.right-team-mates-container {
+    
+    max-width: 60%;
+    max-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+.members-container {
+    align-items: center;
+    width: 9.375rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: .626rem;
+    
+
+}
+
+.members-pic {
+    background-image: url(leo.jpg);
+    width: 4.7rem;
+    height: 4.7rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1.563rem;  
+     
+}
+
+.members-role, .pm-role {
+    font-size: .626rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.members-name, .pm-name {
+    font-size: 1rem;
+    font-style: bold;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: #FFDE59;
+
+
+    
+}
+.team-bg {
+    width: 100%;
+    height: 100vh;
+    background-image: url(2nd\ bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.programs-course {
+   display: flex;
+   flex-wrap: wrap;
+   font-family: 'Poppins', sans-serif;
+}
+.programs-course a {
+    color: black;
+    text-decoration: none;
+}
+.programs-course a:hover {
+    color: #1025A1;
+}
+
+#programs {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    
+}
+.programs-logo {
+    background-image: url(qcu\ logo.png);
+    width: 6.563rem;
+    height: 6.563rem;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.programs-container {
+    background-color: white;
+    width: 12.813rem;
+    height: 12.813rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: .626rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+header span {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+
+}
+.programs-course {
+    height: 2.813rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: ’Poppins’;
+    font-weight: bold;
+    color: black;
+   
+}
+.main-programs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 50%;
+    height: 31.875rem;
+
+    align-items: center;
+}
+#careers {
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: whitesmoke;
+    
+}
+.job-container {
+    flex-wrap: wrap;
+    width: 80%;
+    background-color: white;
+    padding: .626rem;
+    border-radius: .626rem;
+    margin-bottom: .626rem;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(91,89,89,0.25);
+}
+.apply-now a {
+    color: #1025A1;
+}
+.job-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+}
+.job-description {
+    font-family: 'Poppins', sans-serif;
+   
+}
