@@ -114,9 +114,7 @@ nav {
         display: block;
     }
 
-    .right-nav-container:hover .dropdown-contents {
-        display: none;
-    }
+     
     svg:hover {
         cursor: pointer;
     }
