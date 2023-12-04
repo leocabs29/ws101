@@ -79,6 +79,53 @@ nav {
     margin-left: 1.5rem;
 
 }
+
+.right-nav-container svg {
+    display: none;
+}
+.right-nav-container li {
+    display: none;
+}
+.dropdown-contents {
+    background-color: white;
+    background: rgba(255,255,255,0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.25);
+    width: max-content;
+    position: absolute;
+    right: 50px;
+}
+@media (max-width: 768px) {
+    .right-nav-container {
+        width: 10%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        bottom: -15px;
+    }
+
+    .right-nav-container a {
+        display: none;
+    }
+
+    .right-nav-container svg {
+        display: block;
+    }
+
+    .right-nav-container:hover .dropdown-contents {
+        display: block;
+    }
+
+    .dropdown-contents li {
+        display: block;
+        padding: 0.626rem;
+    }
+}
+li {
+    list-style: none;
+}
 #home {
     height: 100%;
     width: 100%;
