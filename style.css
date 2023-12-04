@@ -115,9 +115,11 @@ nav {
     }
 
     .right-nav-container:hover .dropdown-contents {
-        display: block;
+        display: none;
     }
-
+    svg:hover {
+        cursor: pointer;
+    }
     .dropdown-contents li {
         display: block;
         padding: 0.626rem;
