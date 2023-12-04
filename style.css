@@ -339,9 +339,9 @@ header span {
 }
 .job-title {
     font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
-.job-description {
+.job-description, .company-name, .job-salary {
     font-family: 'Poppins', sans-serif;
    
 }
