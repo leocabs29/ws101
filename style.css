@@ -50,7 +50,7 @@ nav {
 
 }
 #Home .right-nav-container a  {
-    cursor: pointer;
+    cursor: pointer; 
     text-decoration: none;
     color: black;
     padding: .626rem;
@@ -93,8 +93,10 @@ nav {
     background-color: white;
     font-size: smaller; 
 }
-.dropdown-contents:hover {
-    background-color: #1025A1;
+.dropdown-contents li:hover {
+    color: #1025A1;
+    cursor: pointer;
+    background-color: whitesmoke;
 }
 @media (max-width: 768px) {
     .right-nav-container {
