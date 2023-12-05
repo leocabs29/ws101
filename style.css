@@ -92,11 +92,15 @@ nav {
     right: 3.125rem;
     background-color: white;
     font-size: smaller; 
+    display: none;
+    padding-right: 2.5rem;
 }
 .dropdown-contents li:hover {
     color: #1025A1;
     cursor: pointer;
     background-color: whitesmoke;
+    width: max-content;
+    
 }
 @media (max-width: 768px) {
     .right-nav-container {
