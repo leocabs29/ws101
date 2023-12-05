@@ -91,7 +91,7 @@ nav {
     position: absolute;
     right: 3.125rem;
     background-color: white;
-    font-size: smaller;
+    font-size: smaller; 
 }
 @media (max-width: 768px) {
     .right-nav-container {
