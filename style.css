@@ -93,6 +93,9 @@ nav {
     background-color: white;
     font-size: smaller; 
 }
+.dropdown-contents:hover {
+    background-color: #1025A1;
+}
 @media (max-width: 768px) {
     .right-nav-container {
         width: 10%;
