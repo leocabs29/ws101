@@ -87,14 +87,11 @@ nav {
     display: none;
 }
 .dropdown-contents {
-    background-color: white;
-    background: rgba(255,255,255,0.5);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255,255,255,0.25);
     width: max-content;
     position: absolute;
-    right: 50px;
+    right: 3.125rem;
+    background-color: white;
+    font-size: smaller;
 }
 @media (max-width: 768px) {
     .right-nav-container {
@@ -103,7 +100,7 @@ nav {
         align-items: center;
         justify-content: center;
         position: relative;
-        bottom: -15px;
+        bottom: -0.938rem;
     }
 
     .right-nav-container a {
@@ -121,6 +118,13 @@ nav {
     .dropdown-contents li {
         display: block;
         padding: 0.626rem;
+    }
+}
+@media (max-width: 425px) {
+.dropdown-contents {
+    right: 1.25rem;
+    background-color: white;
+    font-size: smaller;
     }
 }
 li {
