@@ -101,7 +101,7 @@ nav {
 @media (max-width: 768px) {
     .right-nav-container {
         width: 10%;
-        display: block;
+        display: block; 
         align-items: center;
         justify-content: center;
         position: relative;
