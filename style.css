@@ -431,7 +431,7 @@ header span {
         font-size: .9rem;
     }
     .main-programs-container {
-        max-width: 95%;
+        max-width: 90%;
     }
 }
 @media (max-width: 484px) {
