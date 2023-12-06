@@ -511,16 +511,16 @@ header span {
    }
     .job-title {
         font-family: 'Poppins', sans-serif;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .job-description, .company-name, .job-salary, .apply-now {
-        font-size: .4rem;
+        font-size: .2rem;
     }
     .job-course {
-        font-size: .6rem;
+        font-size: .4rem;
     }
     .job-title {
-        font-size: .6rem;
+        font-size: .4rem;
     }
     
 }
