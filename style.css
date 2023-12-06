@@ -83,7 +83,7 @@ nav {
 .right-nav-container svg {
     display: none;
 }
-.right-nav-container li {
+.right-nav-container li a{
     display: none;
 }
 .dropdown-contents {
@@ -94,12 +94,13 @@ nav {
     font-size: smaller; 
     display: none;
     padding-right: 2.5rem;
+    
 }
 .dropdown-contents li:hover {
     color: #1025A1;
     cursor: pointer;
     background-color: whitesmoke;
-    width: max-content;
+    width: 100%;
     
 }
 @media (max-width: 768px) {
@@ -124,7 +125,7 @@ nav {
     svg:hover {
         cursor: pointer;
     }
-    .dropdown-contents li {
+    .dropdown-contents li a{
         display: block;
         padding: 0.626rem;
     }
@@ -135,6 +136,13 @@ nav {
     background-color: white;
     font-size: smaller;
     }
+    
+}
+@media (max-width: 502px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    
 }
 li {
     list-style: none;
@@ -323,13 +331,12 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    scroll-padding-top: 2rem;
     
 }
 .programs-logo {
     background-image: url(qcu\ logo.png);
-    width: 6.563rem;
-    height: 6.563rem;
+    width: 6.668rem;
+    height: 6.668rem;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -338,7 +345,6 @@ h1 {
     justify-content: center;
 }
 .programs-container {
-    background-color: white;
     width: 12.813rem;
     height: 12.813rem;
     display: flex;
@@ -346,7 +352,10 @@ h1 {
     justify-content: center;
     border-radius: .626rem;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 1%;
+    
 }
+
 
 header span {
     width: 100%;
@@ -365,6 +374,7 @@ header span {
     font-family: ’Poppins’;
     font-weight: bold;
     color: black;
+    font-size: 1rem;
    
 }
 .main-programs-container {
@@ -372,16 +382,35 @@ header span {
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 50%;
-    height: 31.875rem;
+    height: max-content;
     align-items: center;
+    background-color: red;
+    padding: 5%;
+
+}
+@media (max-width: 833px) {
+    .programs-container {
+        width: 7.8rem;
+        height: 7.8rem;
+    }
+    header span {
+        font-size: 1.5rem;
+    }
+    .programs-course {
+        font-size: .719rem;
+    }
+    .main-programs-container {
+        max-width: 60%;
+    }
 }
 #careers {
-    height: 175vh;
+    height: 210vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: blue;
     
 }
 .job-container {
