@@ -321,7 +321,7 @@ h1 {
 }
 
 #programs {
-    height: 120vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -398,36 +398,48 @@ header span {
 }
 @media (max-width: 433px) {
     .programs-container {
-        width: 5.8rem;
-        height: 5.8rem;
+        width: 7.1rem;
+        height: 7.1rem;
     }
     header span {
-        font-size: .9rem;
+        font-size: 1.2rem;
     }
     .programs-course {
         font-size: .619rem;
     }
     .main-programs-container {
-        max-width: 80%;
+        max-width: 100%;
     }
     #programs {
         height: 100vh;
     }
    
 }
-@media (max-width: 425px) {
-    .programs-container {
-        width: 4.9rem;
-        height: 4.9rem;
+@media (max-width: 362px) { 
+   
+    .main-programs-container {
+        justify-content: space-around;
+        max-height: 50vh;
+
     }
+    
+}
+@media (max-width: 425px) {
+    
+   
     header span {
         font-size: .9rem;
     }
-    .programs-course {
-        font-size: .419rem;
-    }
     .main-programs-container {
-        max-width: 60%;
+        max-width: 95%;
+    }
+}
+@media (max-width: 484px) {
+    h1 {
+        font-size: 1.4rem;
+    }
+    .nav-title {
+        font-size: .7rem;
     }
 }
 #careers {
