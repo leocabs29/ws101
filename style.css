@@ -379,10 +379,43 @@ header span {
     max-width: 50%;
     height: max-content;
     align-items: center;
-    padding: 5%;
 
 }
-@media (max-width: 833px) {
+@media (max-width: 854px) {
+    .programs-container {
+        width: 7.8rem;
+        height: 7.8rem;
+    }
+    header span {
+        font-size: 1.5rem;
+    }
+    .programs-course {
+        font-size: .719rem;
+    }
+    .main-programs-container {
+        max-width: 60%;
+    }
+}
+@media (max-width: 433px) {
+    .programs-container {
+        width: 5.8rem;
+        height: 5.8rem;
+    }
+    header span {
+        font-size: 1.2rem;
+    }
+    .programs-course {
+        font-size: .619rem;
+    }
+    .main-programs-container {
+        max-width: 80%;
+    }
+    #programs {
+        height: 100vh;
+    }
+   
+}
+@media (max-width: 425px) {
     .programs-container {
         width: 7.8rem;
         height: 7.8rem;
