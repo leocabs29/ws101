@@ -267,7 +267,7 @@ h1 {
 
 }
 .members-container {
-    align-items: center; 
+    align-items: center;  
     width: 9.375rem;
     display: flex;
     flex-direction: column;
