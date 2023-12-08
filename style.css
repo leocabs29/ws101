@@ -599,8 +599,8 @@ h1 {
     .pm-container {
     }
     .pm-pic {
-     width: 3.625rem;
-     height: 3.625rem;
+     width: 2.625rem;
+     height: 2.625rem;
      border-radius: 1.563rem;
     
     }
@@ -614,8 +614,8 @@ h1 {
     }
     
     .members-pic {
-        width: 3.625rem;
-        height: 3.625rem;
+        width: 2.625rem;
+        height: 2.625rem;
         border-radius: 1.563rem;  
          
     }
@@ -650,8 +650,8 @@ h1 {
 
     }
     .pm-pic {
-     width: 4.625rem;
-     height: 4.625rem;
+     width: 2.625rem;
+     height: 2.625rem;
      border-radius: 1.563rem;
     
     }
@@ -665,8 +665,8 @@ h1 {
     }
     
     .members-pic {
-        width: 3.625rem;
-        height: 3.625rem;
+        width: 2.625rem;
+        height: 2.625rem;
         border-radius: 1.563rem;  
          
     }
@@ -874,31 +874,7 @@ header span {
     font-family: 'Poppins', sans-serif;
    
 }
-@media (max-width: 320px) { 
-   #careers span {
-    font-size: 1.2rem;
-   }
-   #careers {
-    height: 130vh;
-   }
-   h1 {
-    font-size: 1.2rem;
-   }
-    .job-title {
-        font-family: 'Poppins', sans-serif;
-        font-size: 1rem;
-    }
-    .job-description, .company-name, .job-salary, .apply-now {
-        font-size: .2rem;
-    }
-    .job-course {
-        font-size: .4rem;
-    }
-    .job-title {
-        font-size: .4rem;
-    }
-    
-}
+
 @media (max-width: 375px) { 
     #careers span {
      font-size: 1.2rem;
@@ -947,6 +923,34 @@ header span {
      .job-title {
          font-size: .6rem;
      }
+ }
+ @media (max-width: 320px) { 
+    #careers span {
+     font-size: 1.2rem;
+    }
+    #careers {
+     height: 130vh;
+    }
+    h1 {
+     font-size: 1.2rem;
+    }
+     .job-title {
+         font-family: 'Poppins', sans-serif;
+         font-size: 1rem;
+     }
+     .job-description, .company-name, .job-salary, .apply-now {
+         font-size: .4rem;
+     }
+     .job-course {
+         font-size: .6rem;
+     }
+     .job-title {
+         font-size: .6rem;
+     }
+     #careers {
+        height: 100vh;
+     }
+     
  }
 #signup {
     height: 90vh;
