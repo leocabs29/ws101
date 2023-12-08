@@ -14,7 +14,7 @@ const app = express();
 const port = 3000;
 
 const pool = createPool({
-  host: 'Information Web',
+  host: 'Information Website',
   user: 'root',
   password: '1234',
   database: 'infoweb',
