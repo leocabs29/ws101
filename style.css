@@ -511,11 +511,11 @@ h1 {
 @media (max-width:461px) {
     .our-team {
         font-size: 1.425rem;
-        margin-bottom: 1.5rem;
     }
     .left-team-mates-container {
         width: 40%;
         height: 100%;
+        margin-bottom: 2%;
     }
     .team-mates-container {
         width: 100%;
@@ -1038,15 +1038,24 @@ input:focus {
     background-color: #1025A1;
     outline: none;
     border: none;
-    padding: 8px 6px;
+    padding: 0.5rem .375rem;
     border-radius: .313rem;
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     
 }
+#signup button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: .3s;
+}
+
+
 .sign-up-bg {
-    background-image: url(1st\ bg.png);
+    background-image: url(3rd\ bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1054,4 +1063,13 @@ input:focus {
     height: 90vh;
     position: absolute;  
 } 
+@media (max-width:493px)  {
+    #signup span {
+        font-size: 1.1rem;
+    }
+    #signup ::placeholder {
+        font-size: .599rem;
+    }
+   
+}
 
