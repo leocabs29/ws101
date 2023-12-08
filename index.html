@@ -228,23 +228,24 @@
                 <span>Sign-up</span>
                 <span>For updates</span>
             </div>
-            <div class="sign-up-right-container">
+            <form id="signupForm" action="/signup" method="POST">
                 <hr>
-                <input type="text" placeholder="Name">
+                <input type="text" name="name" placeholder="Name">
                 <hr>
-                <input type="text" placeholder="Program">
+                <input type="text" name="program" placeholder="Program">
                 <hr>
-                <input type="text" placeholder="Campus">
+                <input type="text" name="campus" placeholder="Campus">
                 <hr>
-                <input type="email" placeholder="Email">
+                <input type="email" name="email" placeholder="Email">
                 <hr>
                 <div class="sign-up-button-container">
-                    <button>Sign up</button>
+                    <button type="submit">Sign up</button>
                 </div>
+            </form>
             </div>
         </div>
         <div class="sign-up-bg"></div>
     </main>
 </body>
-    <script src="script.js"></script>
+<script type="module" src="script.js"></script>
 </html>
