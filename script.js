@@ -52,3 +52,21 @@ app.post('/signup', (req, res) => {
 app.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
 });
+function submitForm() {
+    const form = document.getElementById('signupForm');
+    const formData = new FormData(form);
+
+    fetch('http://localhost:3000/signup', {
+      method: 'POST',
+      body: JSON.stringify(Object.fromEntries(formData)),
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    })
+    .then(response => response.text())
+    .then(data => {
+      console.log(data);
+      // Handle the response from the server as needed
+    })
+    .catch(error => console.error('Error:', error));
+  }
