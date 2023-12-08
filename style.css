@@ -510,7 +510,7 @@ h1 {
 }
 @media (max-width:461px) {
     .our-team {
-        font-size: 1.425rem;
+        font-size: 1.425rem; 
     }
     .left-team-mates-container {
         width: 40%;
