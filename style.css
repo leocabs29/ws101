@@ -358,57 +358,39 @@ h1 {
     .team-mates-container {
         width: 100%;
     }
-    
-}
-@media (max-width:749px) {
-    .our-team {
-        font-size: 1.425rem;
-        margin-bottom: 1.5rem;
+    .pm-container {
 
     }
-    .left-team-mates-container {
-        width: 40%;
-        height: 100%;
-        
-    }
-    .team-mates-container {
-        width: 100%;
-        max-height: max-content;
-        padding: 1.5rem;
-        border-radius: .928rem;
-       
-    
-    }
     .pm-pic {
-     width: 4.625rem;
-     height: 4.625rem;
-     border-radius: 1.563rem;
-    
+     width: 3.7rem;
+     height: 3.7rem;
     }
     .right-team-mates-container {
+        
         max-width: 60%;
         max-height: 100%;
-        
     }
     .members-container {
-        width: 7.375rem;
-        margin-bottom: .626rem;
+        width: 9.375rem;
+        
+    
     }
     
     .members-pic {
-        width: 4.7rem;
-        height: 4.7rem;
-        border-radius: 1.563rem;  
+        width: 3.7rem;
+        height: 3.7rem;
          
     }
     
     .members-role, .pm-role {
-        font-size: .526rem;
+        font-size: .7rem;
     }
     .members-name, .pm-name {
-        font-size: .940rem;  
+        font-size: .9rem;  
     }
+    
 }
+
 @media (max-width:749px) {
     .our-team {
         font-size: 1.425rem;
@@ -530,12 +512,7 @@ h1 {
     .pm-container {
         width: 5.775rem;
     }
-    .pm-pic {
-     width: 4.625rem;
-     height: 4.625rem;
-     border-radius: 1.563rem;
-    
-    }
+  
     .right-team-mates-container {
         max-width: 70%;
         max-height: 100%;
@@ -551,7 +528,12 @@ h1 {
         border-radius: 1.563rem;  
          
     }
-    
+    .pm-pic {
+        width: 3.625rem;
+        height: 3.625rem;
+        border-radius: 1.563rem;
+       
+       }
     .members-role, .pm-role {
         font-size: .426rem;
     }
@@ -581,14 +563,8 @@ h1 {
         align-items: center;
 
     }
-    .pm-container {
-    }
-    .pm-pic {
-     width: 4.625rem;
-     height: 4.625rem;
-     border-radius: 1.563rem;
+   
     
-    }
     .right-team-mates-container {
         max-width: 70%;
         max-height: 100%;
@@ -598,20 +574,6 @@ h1 {
         margin-bottom: .626rem;
     }
     
-    .members-pic {
-        width: 4.625rem;
-        height: 4.625rem;
-        border-radius: 1.563rem;  
-         
-    }
-    
-    .members-role, .pm-role {
-        font-size: .426rem;
-    }
-    .members-name, .pm-name {
-        font-size: .640rem;
-        color: #FFDE59;   
-    }
     
 }
 
@@ -637,8 +599,8 @@ h1 {
     .pm-container {
     }
     .pm-pic {
-     width: 4.625rem;
-     height: 4.625rem;
+     width: 3.625rem;
+     height: 3.625rem;
      border-radius: 1.563rem;
     
     }
@@ -686,8 +648,6 @@ h1 {
         flex-direction: column;
         align-items: center;
 
-    }
-    .pm-container {
     }
     .pm-pic {
      width: 4.625rem;
@@ -851,6 +811,21 @@ header span {
         max-width: 60%;
     }
 }
+@media (max-width: 768px) {
+    .programs-container {
+        width: 7.8rem;
+        height: 7.8rem;
+    }
+    header span {
+        font-size: 1.5rem;
+    }
+    .programs-course {
+        font-size: .719rem;
+    }
+    .main-programs-container {
+        max-width: 60%;
+    }
+}
 @media (max-width: 433px) {
     .programs-container {
         width: 7.1rem;
@@ -984,7 +959,7 @@ header span {
 }
  .sign-up-container {
     width: 90%;
-    height: 80vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1000,7 +975,7 @@ header span {
  }
 .sign-up-left-container {
     width: 50%;
-    height: 60vh;
+    height: 50%;
     display: flex;
     flex-direction: column;
     font-size: 3rem;   
@@ -1008,7 +983,7 @@ header span {
 }
 .sign-up-right-container {
     width: 50%;
-    height: 60vh;
+    height: 50%;
     padding: 5%;
 }
 #signup input {
@@ -1063,6 +1038,22 @@ input:focus {
     height: 90vh;
     position: absolute;  
 } 
+@media (max-width:768px)  {
+    #signup span {
+        font-size: 2.1rem;
+    }
+    #signup ::placeholder {
+        font-size: .599rem;
+    }
+
+} 
+@media (max-width:544px)  {
+    #signup span {
+        font-size: 1.5rem;
+    }
+   
+
+} 
 @media (max-width:493px)  {
     #signup span {
         font-size: 1.1rem;
@@ -1070,5 +1061,17 @@ input:focus {
     #signup ::placeholder {
         font-size: .599rem;
     }
+    .sign-up-container {
+        height: 50vh;
+    }
+} 
+@media (max-width:493px)  {
+    #signup span {
+        font-size: .899rem;
+    }
+    .sign-up-container {
+        height: 50vh;
+    }
+
 } 
 
