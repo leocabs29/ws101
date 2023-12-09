@@ -228,23 +228,23 @@
                 <span>Sign-up</span>
                 <span>For updates</span>
             </div>
-            <form class="sign-up-right-container" id="form" autocomplete="on">
+            <form action="signup.php" method="post" class="sign-up-right-container" id="form" autocomplete="on">
                 <hr>
                 <input type="text" name="name" placeholder="Name">
                 <hr>
                 <input type="text" name="program" placeholder="Program">
                 <hr>
                 <input type="text" name="campus" placeholder="Campus" disabled>
-                <select name="" id="">
-                    <option value="">San Bartolome</option>
-                    <option value="">Batasan</option>
-                    <option value="">San Francisco</option>
+                <select name="campus">
+                    <option value="San Bartolome">San Bartolome</option>
+                    <option value="Batasan">Batasan</option>
+                    <option value="San Francisco">San Francisco</option>
                 </select>
                 <hr>
                 <input type="email" name="email" placeholder="Email">
                 <hr>
                 <div class="sign-up-button-container">
-                    <button type="submit"  >Sign up</button>
+                    <button type="submit" name="signup" value="INSERT DATA">Sign up</button>
                 </div>
             </form>    
             </div>
@@ -252,5 +252,5 @@
         <div class="sign-up-bg"></div>
     </main>
 </body>
-<script src="script.js" ></script>
+<script src="script.js"></script>
 </html>
