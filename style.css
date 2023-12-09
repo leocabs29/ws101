@@ -1004,6 +1004,8 @@ header span {
 }
 input:focus {
    outline: none;
+   background-color: transparent;
+   color: white;
   }
 #signup hr {
     margin-bottom: 5%;
@@ -1078,4 +1080,27 @@ input:focus {
     }
 
 } 
+#signup select {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: .8rem;
+    width: max-content;
+    height: max-content;
+}
+
+option {
+    background: rgba(8, 1, 1, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(91,89,89,0.25);
+    
+}
+#signup select:focus {
+    border: none;
+    outline: none;
+}
+#signup option:active{
+    background-color: red;
+}
 
