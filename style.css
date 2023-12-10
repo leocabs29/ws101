@@ -4,7 +4,10 @@
 html {
     scroll-behavior: smooth;
 } 
+ head {
+    background-image: url(qcu\ logo.png);
     
+ }   
 body {
     background-color: whitesmoke;
     display: flex;
