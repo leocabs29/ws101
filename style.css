@@ -868,7 +868,7 @@ header span {
     width: 80%;
     background-color: white;
     padding: .626rem;
-    border-radius: .626rem;
+    border-radius: .626rem; 
     margin-bottom: .626rem;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
