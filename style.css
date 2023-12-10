@@ -1133,8 +1133,10 @@ footer {
     background-color: #000000;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .bot-footer span {
     color: white;
     font-family: 'Roboto', sans-serif;
+    font-size: small;
 }
