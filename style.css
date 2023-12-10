@@ -856,6 +856,13 @@ header span {
     }
     
 }
+@media (max-width: 362px) { 
+   
+    #careers {
+        margin-top: 40%;
+    }
+    
+}
 .job-container {
     flex-wrap: wrap;
     width: 80%;
