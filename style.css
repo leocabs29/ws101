@@ -878,31 +878,7 @@ header span {
    
 }
 
-@media (max-width: 375px) { 
-    #careers span {
-     font-size: 1.2rem;
-    }
-    #careers {
-     height: 110vh;
-    }  
-    h1 {
-     font-size: 1.2rem;
-    }
-     .job-title {
-         font-family: 'Poppins', sans-serif;
-         font-size: 1.2rem;
-     }
-     .job-description, .company-name, .job-salary, .apply-now {
-         font-size: .4rem;
-     }
-     .job-course {
-         font-size: .6rem;
-     }
-     .job-title {
-         font-size: .6rem;
-     }
-     
- }
+
  @media (max-width: 425px) { 
     #careers span {
      font-size: 1.2rem;
@@ -915,17 +891,48 @@ header span {
     }
      .job-title {
          font-family: 'Poppins', sans-serif;
-         font-size: 1.2rem;
+         font-size: 1.4rem;
      }
      .job-description, .company-name, .job-salary, .apply-now {
-         font-size: .4rem;
+         font-size: .6rem;
      }
      .job-course {
-         font-size: .6rem;
+         font-size: .8rem;
      }
      .job-title {
+         font-size: .8rem;
+     }
+     .job-container {
+        width: 85%;
+    }
+ }
+ @media (max-width: 375px) { 
+    #careers span {
+     font-size: 1.2rem;
+    }
+    #careers {
+     height: 110vh;
+    }  
+    h1 {
+     font-size: 1.2rem;
+    }
+     .job-title {
+         font-family: 'Poppins', sans-serif;
+         font-size: 1.4rem;
+         
+     }
+     .job-description, .company-name, .job-salary, .apply-now {
          font-size: .6rem;
      }
+     .job-course {
+         font-size: .8rem;
+     }
+     .job-title {
+         font-size: .8rem;
+     }
+     .job-container {
+        width: 90%;
+    }
  }
  @media (max-width: 320px) { 
     #careers span {
@@ -942,14 +949,17 @@ header span {
          font-size: 1rem;
      }
      .job-description, .company-name, .job-salary, .apply-now {
-         font-size: .4rem;
+         font-size: .6rem;
      }
      .job-course {
-         font-size: .6rem;
+         font-size: .8rem;
      }
      .job-title {
-         font-size: .6rem;
+         font-size: .8rem;
      }
+     .job-container {
+        width: 90%;
+    }
      
  }
 #signup {
