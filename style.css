@@ -431,6 +431,78 @@ h1 {
      width: 3.7rem;
      height: 3.7rem;
     }
+    .members-pic {
+        background-image: url(leo.jpg);
+        width: 3.7rem;
+        height: 3.7rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1.563rem;  
+    }
+    .members-pic-tutaan {
+        background-image: url(tutaan.jpeg);
+        width: 3.7rem;
+        height: 3.7rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1.563rem;  
+    }
+    .members-pic-gerona {
+        background-image: url(gerona.jpeg);
+        width: 3.7rem;
+        height: 3.7rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1.563rem;  
+    }
+    .members-pic-paran {
+        background-image: url(Paran.jpg);
+        width: 4.7rem;
+        height: 4.7rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1.563rem;  
+    }
+    .members-pic-aparri {
+        background-image: url(aparri.jpg);
+        width: 3.7rem;
+        height: 3.7rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1.563rem;  
+    }
+    .members-pic-aguinaldo {
+        background-image: url(aguinaldo.jpg);
+        width: 3.7rem;
+        height: 3.7rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1.563rem;  
+    }
+    .members-pic-deguzman {
+        background-image: url(de\ guzman.jpg);
+        width: 3.7rem;
+        height: 3.7rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1.563rem;  
+    }
+    .members-pic-buban {
+        background-image: url(buban.jpg);
+        width: 3.7rem;
+        height: 3.7rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1.563rem;  
+    }
+    .members-pic-ayque {
+        background-image: url(ayque.jpeg);
+        width: 3.7rem;
+        height: 3.7rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1.563rem;  
+    }
     .right-team-mates-container {
         
         max-width: 60%;
@@ -588,11 +660,78 @@ h1 {
         margin-bottom: .626rem;
     }
     
+
     .members-pic {
+        background-image: url(leo.jpg);
         width: 3.625rem;
         height: 3.625rem;
+        background-size: cover;
+        background-position: center;
         border-radius: 1.563rem;  
-         
+    }
+    .members-pic-tutaan {
+        background-image: url(tutaan.jpeg);
+        width: 3.625rem;
+        height: 3.625rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1.563rem;  
+    }
+    .members-pic-gerona {
+        background-image: url(gerona.jpeg);
+        width: 3.625rem;
+        height: 3.625rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1.563rem;  
+    }
+    .members-pic-paran {
+        background-image: url(Paran.jpg);
+        width: 3.625rem;
+        height: 3.625rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1.563rem;  
+    }
+    .members-pic-aparri {
+        background-image: url(aparri.jpg);
+        width: 3.625rem;
+        height: 3.625rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1.563rem;  
+    }
+    .members-pic-aguinaldo {
+        background-image: url(aguinaldo.jpg);
+        width: 3.625rem;
+        height: 3.625rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1.563rem;  
+    }
+    .members-pic-deguzman {
+        background-image: url(de\ guzman.jpg);
+        width: 3.625rem;
+        height: 3.625rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1.563rem;  
+    }
+    .members-pic-buban {
+        background-image: url(buban.jpg);
+        width: 3.625rem;
+        height: 3.625rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1.563rem;  
+    }
+    .members-pic-ayque {
+        background-image: url(ayque.jpeg);
+        width: 3.625rem;
+        height: 3.625rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1.563rem;  
     }
     .pm-pic {
         width: 3.625rem;
