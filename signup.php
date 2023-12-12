@@ -17,6 +17,8 @@
         // execute the query
         if ($wkwk->execute()) {
             echo "<script>alert('Sign up Success');</script>";
+            sleep(3);
+            header("Location: index.html");
         } else {
             echo "Error: " . $wkwk->error;
         }

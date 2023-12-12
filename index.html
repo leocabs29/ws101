@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QCU Career Hub</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="q.jpg">
 </head>
 <body id="Home">
     <nav>
@@ -16,7 +17,7 @@
             <div><a href="#Home">Home</a></div>
             <div><a href="#programs">Programs</a></div>
             <div><a href="#careers">Careers</a></div>
-            <div><a href="#team">About</a></div>
+            <div><a href="#team">Team</a></div>
             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="black" class="bi bi-list" viewBox="0 0 16 16" id="click" onclick="drop()">
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
             </svg>
@@ -25,7 +26,7 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#programs">Programs</a></li>
             <li><a href="#careers">Careers</a></li>
-            <li><a href="#team">About</a></li> 
+            <li><a href="#team">Team</a></li> 
             </div> 
         </div>
         
@@ -213,7 +214,7 @@
                         <div class="members-role">System Analyst</div>
                     </div>
                     <div class="members-container">
-                        <div class="members-pic"></div>
+                        <div class="members-pic-gyd"></div>
                         <div class="members-name">Gyd Hanaban</div>
                         <div class="members-role">Back-end</div>
                     </div>
@@ -244,12 +245,22 @@
                 <input type="email" name="email" placeholder="Email">
                 <hr>
                 <div class="sign-up-button-container">
-                    <button type="submit" name="signup" value="INSERT DATA">Sign up</button>
+                    <button type="submit" name="signup" value="INSERT DATA" id="signupbtn">Sign up</button>
                 </div>
             </form>    
             </div>
         </div>
         <div class="sign-up-bg"></div>
+
+        <!-- Modal box dito -->
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+               <span class="close">&times;</span>
+               <p>Thank you for Signing Up to our website! Please wait for the site to reload..</p>
+            </div>
+           </div>
+           
     </main>
     <footer>
         <div class="top-footer">
