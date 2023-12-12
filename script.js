@@ -27,3 +27,14 @@ window.onclick = function(event) {
     modal.style.display = "none";
  }
 }
+
+//para sakto lagi yung height ng nav pag napindot
+
+const navigation = document.querySelector(".nav-class");
+
+const navigationHeight = navigation.offsetHeight;
+
+document.documentElement.style.setProperty(
+    "--scroll-padding",
+    navigationHeight + "px"
+);
