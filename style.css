@@ -4,7 +4,9 @@
 html {
     scroll-behavior: smooth;
     scroll-padding: var(--scroll-padding, 5rem);
-    background-color: red;
+
+    margin: 0;
+   
     
     
     
@@ -21,7 +23,8 @@ body {
     max-width: 100%;
     overscroll-behavior: none;
     margin: 0;
-   
+    
+    overflow-x: hidden;
 }
 .nav-title {
     
