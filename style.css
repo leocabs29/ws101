@@ -19,7 +19,6 @@ body {
     background-color: whitesmoke;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     max-width: 100%;
     overscroll-behavior: none;
     margin: 0;
@@ -202,7 +201,7 @@ h1 {
     text-align: center;
 }
 #team {
-    height: 80vh;
+    height: 120vh;
     width: 100vw;
    
     display: flex;
@@ -1148,8 +1147,6 @@ header span {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 12.5rem;
-    margin-top: 20%;
 }
 @media (max-width: 1309px) {
 
@@ -1203,9 +1200,7 @@ header span {
     .main-programs-container {
         max-width: 60%;
     }
-    #careers {
-      height: 215vh;
-    }
+
 }
 @media (max-width: 433px) {
     .programs-container {
@@ -1235,9 +1230,7 @@ header span {
 }
 @media (max-width: 362px) { 
    
-    #careers {
-        margin-top: 40%;
-    }
+   
     
 }
 .job-container {
