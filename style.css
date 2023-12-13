@@ -843,9 +843,82 @@ h1 {
     .members-pic {
         width: 2.625rem;
         height: 2.625rem;
-        border-radius: 1.563rem;  
-         
+        border-radius: 1.563rem;    
     }
+    .members-pic-tutaan {
+        background-image: url(tutaan.jpeg);
+        width: 2.625rem;
+        height: 2.625rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1.563rem;  
+    }
+    .members-pic-gerona {
+        background-image: url(gerona.jpeg);
+        width: 2.625rem;
+        height: 2.625rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1.563rem;  
+    }
+    .members-pic-paran {
+        background-image: url(Paran.jpg);
+        width: 2.625rem;
+        height: 2.625rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1.563rem;  
+    }
+    .members-pic-aparri {
+        background-image: url(aparri.jpg);
+        width: 2.625rem;
+        height: 2.625rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1.563rem;  
+    }
+    .members-pic-aguinaldo {
+        background-image: url(aguinaldo.jpg);
+        width: 2.625rem;
+        height: 2.625rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1.563rem;  
+    }
+    .members-pic-deguzman {
+        background-image: url(de\ guzman.jpg);
+        width: 2.625rem;
+        height: 2.625rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1.563rem;  
+    }
+    .members-pic-buban {
+        background-image: url(buban.jpg);
+        width: 2.625rem;
+        height: 2.625rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1.563rem;  
+    }
+    .members-pic-ayque {
+        background-image: url(ayque.jpeg);
+        width: 2.625rem;
+        height: 2.625rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1.563rem;  
+    }
+    .members-pic-gyd {
+        background-image: url(Gyd.png);
+        width: 2.625rem;
+        height: 2.625rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1.563rem;  
+    }
+   
+    
     
     .members-role, .pm-role {
         font-size: .426rem;
