@@ -997,7 +997,6 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-     background-color: red; 
 }
 .programs-logo-bsa {
     background-image: url(bsa.jpeg);
@@ -1146,6 +1145,7 @@ header span {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 @media (max-width: 1309px) {
 
@@ -1153,10 +1153,19 @@ header span {
         max-width: 65%;
     }
 }
+@media (max-width: 1020px) {
+   #careers {
+    height: 185vh;
+   }
+   
+}
 @media (max-width: 1006px) {
     #programs {
         
     }
+    #careers {
+        height: 190vh;
+       }
     .programs-container {
         background-color: white;
     }
@@ -1169,6 +1178,10 @@ header span {
     .main-programs-container {
         max-width: 80%;
     }
+    #careers {
+        height: 195vh;
+       }
+    
 }
 @media (max-width: 854px) {
     .programs-container {
@@ -1199,8 +1212,19 @@ header span {
     .main-programs-container {
         max-width: 60%;
     }
+    #careers {
+        height: 225vh;
+       }
 
 }
+@media (max-width: 524px) {
+    
+    #careers {
+        height: 255vh;
+       }
+
+}
+
 @media (max-width: 433px) {
     .programs-container {
         width: 7.1rem;
@@ -1220,6 +1244,12 @@ header span {
     }
    
 }
+@media (max-width: 424px) {
+   
+   
+       
+
+}
 @media (max-width: 362px) { 
    
     .main-programs-container {
@@ -1227,11 +1257,7 @@ header span {
     }
     
 }
-@media (max-width: 362px) { 
-   
-   
-    
-}
+
 .job-container {
     flex-wrap: wrap;
     width: 80%;
@@ -1261,7 +1287,7 @@ header span {
      font-size: 1.2rem;
     }
     #careers {
-     height: 110vh;
+     height: 190vh;
     }  
     h1 {
      font-size: 1.2rem;
@@ -1288,7 +1314,7 @@ header span {
      font-size: 1.2rem;
     }
     #careers {
-     height: 110vh;
+     height: 200vh;
     }  
     h1 {
      font-size: 1.2rem;
@@ -1316,7 +1342,7 @@ header span {
      font-size: 1.2rem;
     }
     #careers {
-     height: 130vh;
+     height: 190vh;
     }
     h1 {
      font-size: 1.2rem;
