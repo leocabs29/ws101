@@ -4,6 +4,10 @@
 html {
     scroll-behavior: smooth;
     scroll-padding: var(--scroll-padding, 5rem);
+    background-color: red;
+    
+    
+    
 } 
  head {
     background-image: url(qcu\ logo.png);
@@ -17,6 +21,7 @@ body {
     max-width: 100%;
     overscroll-behavior: none;
     margin: 0;
+   
 }
 .nav-title {
     
@@ -39,7 +44,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
     padding-top: .626rem;
     padding-bottom: .626rem;
     font-style: bolder;
@@ -152,6 +157,7 @@ li {
 #home {
     height: 100%;
     width: 100%;
+    
    
 }
 .bg-home {
@@ -161,6 +167,7 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0;
     
     
 }
